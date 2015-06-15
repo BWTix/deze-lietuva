@@ -1,0 +1,13 @@
+# encoding: utf-8
+
+site "https://supermarket.getchef.com/api/v1"
+
+cookbook 'apt', '~> 2.7.0'
+cookbook 'python', '~> 1.4.6'
+cookbook 'sqlite', '~> 1.1.0'
+cookbook 'git', '~> 4.2.2'
+cookbook "ruby_build", {:github=>"fnichol/chef-ruby_build", :ref=>"v0.7.2"}
+cookbook "rbenv", {:github=>"fnichol/chef-rbenv"}
+cookbook "nodejs", {:github=>"mdxp/nodejs-cookbook"}
+cookbook 'postgresql', '~> 3.4.20'
+cookbook "redis", {:github=>"ctrabold/chef-redis"}
